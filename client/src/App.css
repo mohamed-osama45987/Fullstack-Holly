@@ -1,0 +1,44 @@
+body {
+  background-color: #333;
+}
+
+
+#root {
+  color: white;
+
+  padding: 20px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 10px
+}
+
+
+#Nav {
+  list-style: none;
+  font-size: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+#SignUp {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+#input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ width: 250px;
+  gap: 10px; 
+  
+
+}
